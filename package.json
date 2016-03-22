@@ -1,0 +1,16 @@
+{
+  "name": "azuregraphapi",
+  "version": "1.0.0",
+  "description": "Sample project for connection to Azure's Graph Api",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jmrnet",
+  "license": "ISC",
+  "dependencies": {
+      "adal-node": "*",
+      "restify": "*"
+  }
+}
